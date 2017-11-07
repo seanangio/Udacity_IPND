@@ -1,0 +1,160 @@
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+.nav {
+  display: inline;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav:hover {
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border: 5px dotted red;
+}
+
+.cover-image {
+  border-radius: 5% 10%;
+  border-style: double;
+  border-color: rgb(64, 64, 64);
+  background-image: url("http://all-that-is-interesting.com/wordpress/wp-content/uploads/2015/05/cherry-blossoms-national-festival.jpg");
+  background-color: pink;
+  background-size: cover;
+  background-blend-mode: screen;
+/*why is validator saying it doesn't exist?; also coming in grey text but effect works...*/
+  padding: 10px;
+  margin: 5px;
+  font-family: Helvetica, sans-serif;
+}
+
+.author {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.one {
+  position: relative;
+  left: 5%;
+}
+
+.two {
+  position: relative;
+  left: 30%;
+}
+
+.three {
+  position: relative;
+  left: 55%;
+}
+
+.four {
+  position: relative;
+  left: 80%
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.subhead {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+blockquote {
+  text-align: center;
+  color: blue;
+  font-family: "Verdana";
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto
+}
+
+table, th, td {
+  border: 2px solid black;
+  vertical-align: bottom;
+  height: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+thead {
+  font-weight: bolder;
+  text-align: center;
+  background-color: pink;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+ul div {
+  display: flex;
+  width: 200px;
+  margin: 2em;
+}
+
+ul div img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.video {
+  text-align: center;
+}
+
+iframe {
+  border-width: 0px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  display: block;
+  font-size: 16px;
+  width: auto;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.button:active {
+  background-color: yellow;
+}
+
+.resources-list {
+  list-style: none;
+}
